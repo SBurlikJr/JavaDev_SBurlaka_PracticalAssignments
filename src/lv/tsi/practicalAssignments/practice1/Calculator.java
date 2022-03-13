@@ -1,7 +1,7 @@
-package lv.tsi.practiceLessons.practice1;
+package lv.tsi.practicalAssignments.practice1;
 
 /**
- *
+ * EXERCISE 1
  * x (t) = (t ^ 2) * a * 0.5 + v0 * t + x0
  */
 

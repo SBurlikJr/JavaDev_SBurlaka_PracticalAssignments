@@ -1,4 +1,4 @@
-package lv.tsi.practicalAssignments.whenThingsGoWrong;
+package lv.tsi.practiceLessons.whenThingsGoWrong;
 
 public class HandlingErrors {
 

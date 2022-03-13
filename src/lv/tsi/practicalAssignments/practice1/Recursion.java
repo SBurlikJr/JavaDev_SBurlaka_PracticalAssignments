@@ -1,4 +1,4 @@
-package lv.tsi.practiceLessons.practice1;
+package lv.tsi.practicalAssignments.practice1;
 
 public class Recursion {
 
