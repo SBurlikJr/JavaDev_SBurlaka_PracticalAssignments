@@ -1,4 +1,4 @@
-package tsi.lv.practicalAssignments.oop.proto;
+package lv.tsi.practicalAssignments.oop.proto;
 
 public class PaymentException extends RuntimeException{
 

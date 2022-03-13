@@ -1,4 +1,4 @@
-package tsi.lv.practicalAssignments.whenThingsGoWrong;
+package lv.tsi.practicalAssignments.whenThingsGoWrong;
 
 public class CustomUnCheckedException extends RuntimeException{
     String message;

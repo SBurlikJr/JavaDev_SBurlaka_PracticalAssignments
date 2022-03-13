@@ -1,4 +1,4 @@
-package tsi.lv.practiceLessons.practice1;
+package lv.tsi.practiceLessons.practice1;
 
 /**
  *
@@ -35,7 +35,7 @@ public class Calculator {
         System.out.println ("Position in " + fallingTime + " seconds: " + finalPosition);
     }
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         Calculator calculator = new Calculator(4,2,3);
 
         calculator.calculate();
