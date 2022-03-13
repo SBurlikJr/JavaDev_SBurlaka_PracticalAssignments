@@ -1,4 +1,4 @@
-package tsi.lv.whenThingsGoWrong;
+package tsi.lv.practicalAssignments.whenThingsGoWrong;
 
 public class CustomException extends Exception{
     String message;

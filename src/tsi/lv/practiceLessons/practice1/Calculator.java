@@ -1,4 +1,4 @@
-package tsi.lv;
+package tsi.lv.practiceLessons.practice1;
 
 /**
  *

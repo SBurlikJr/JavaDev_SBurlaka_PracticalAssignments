@@ -1,4 +1,4 @@
-package tsi.lv.whenThingsGoWrong;
+package tsi.lv.practicalAssignments.whenThingsGoWrong;
 
 public class Test {
 
@@ -15,6 +15,7 @@ public class Test {
 
         int[] array = new int[]{1,2,3,4,5,6};
 
+        b.getItemFromArray(array, 0);
         b.getItemFromArray(array, 0);
 
     }
