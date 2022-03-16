@@ -16,11 +16,8 @@ public class OneDimensionalArray {
         System.out.println();
     }
 
-    public void createRandomArray(int size){
+    public double[][] createRandomArray(int size){
         double[][] twoDmArray = new double[size][size];
-        double sum = 0;
-
-
 
         for(int i = 0; i < twoDmArray.length; i++) {
             for(int j = 0; j < twoDmArray.length; j++) {
@@ -32,44 +29,54 @@ public class OneDimensionalArray {
             printRow(row);
         }
 
-        //Sum of the elements
-        for(int i = 0; i < twoDmArray.length; i++){
-            for (int j = 0; j < twoDmArray.length; j++){
-                sum += twoDmArray[i][j];
-            }
-        }
-        double average = sum / (twoDmArray.length * twoDmArray.length);
-        System.out.println("Average of array of elements: " + average);
+        return twoDmArray;
+    }
 
+    public void maxElem(double[][] arr){
         //Max Element
-        double max = twoDmArray[0][0];
-        for(int i = 0; i < twoDmArray.length; i++){
-            for (int j = 0; j < twoDmArray.length; j++){
-                if(twoDmArray[i][j] > max)
-                    max = twoDmArray[i][j];
+        double max = arr[0][0];
+        for(int i = 0; i < arr.length; i++){
+            for (int j = 0; j < arr.length; j++){
+                if(arr[i][j] > max)
+                    max = arr[i][j];
             }
         }
         System.out.println("Biggest Element: " + max);
+    }
 
-
+    public void minElem(double[][] arr){
         //Min Element
-        double min = twoDmArray[0][0];
-        for(int i = 0; i < twoDmArray.length; i++){
-            for (int j = 0; j < twoDmArray.length; j++){
-                if(twoDmArray[i][j] < min)
-                    min = twoDmArray[i][j];
+        double min = arr[0][0];
+        for(int i = 0; i < arr.length; i++){
+            for (int j = 0; j < arr.length; j++){
+                if(arr[i][j] < min)
+                    min = arr[i][j];
             }
         }
         System.out.println("Smallest element: " + min);
     }
+    public void averageElem(double[][] arr){
+        double array = arr[0][0];
+        double sum = 0;
+        int count = 0;
 
-
+        for (double[] doubles : arr) {
+            for (int j = 0; j < arr.length; j++) {
+                sum += doubles[j];
+                count++;
+            }
+        }
+        double average = sum / count;
+        System.out.println("Average of array of elements: " + average);
+    }
 
 
     public static void main(String[] args){
         OneDimensionalArray arrays = new OneDimensionalArray();
-        arrays.createRandomArray(5);
-
+        double[][] arr = arrays.createRandomArray(5);
+        arrays.averageElem(arr);
+        arrays.maxElem(arr);
+        arrays.minElem(arr);
     }
 
 }
