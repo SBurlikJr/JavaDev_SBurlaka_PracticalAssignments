@@ -1,4 +1,4 @@
-package lv.tsi.practicalAssignments.practice1;
+package lv.tsi.practicalAssignments.practice1.exercise1;
 
 /**
  * EXERCISE 1
