@@ -1,4 +1,4 @@
-package lv.tsi.practicalAssignments.practice1.exercise5;
+package lv.tsi.practicalAssignments.Practical_ONE.EX5;
 
 import java.security.SecureRandom;
 

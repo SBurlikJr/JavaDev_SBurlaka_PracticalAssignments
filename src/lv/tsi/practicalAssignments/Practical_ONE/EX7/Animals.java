@@ -1,4 +1,4 @@
-package lv.tsi.practicalAssignments.practice1.exercise7;
+package lv.tsi.practicalAssignments.Practical_ONE.EX7;
 
 public class Animals {
     public static void main(String[] args){

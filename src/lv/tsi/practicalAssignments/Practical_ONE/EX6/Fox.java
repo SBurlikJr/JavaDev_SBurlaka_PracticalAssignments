@@ -1,4 +1,4 @@
-package lv.tsi.practicalAssignments.practice1.exercise6;
+package lv.tsi.practicalAssignments.Practical_ONE.EX6;
 
 public class Fox implements Animal{
     @Override
